@@ -23,7 +23,7 @@ jobs:
         run: mvn clean install
 
       - name: Test Local Action
-        id: pradeepjaladi/github-action@main
+        uses: pradeepjaladi/github-action@main
         with:
           milliseconds: 1000
 
