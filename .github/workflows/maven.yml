@@ -30,3 +30,4 @@ jobs:
           url: ${{ vars.url }}
           username: ${{ vars.username }}
           password: ${{ secrets.password }}
+          pattern: ${{ vars.pattern }}
