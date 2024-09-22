@@ -27,3 +27,6 @@ jobs:
         uses: pradeepjaladi/github-action@v.0.0.1
         with:
           milliseconds: 1000
+          url: ${{ vars.url }}
+          username: ${{ vars.username }}
+          password: ${{ secrets.password }}
